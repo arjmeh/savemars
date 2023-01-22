@@ -3,6 +3,7 @@
     margin: 0;
     color: #9F2042;
     font-family: "Unbounded";
+    overflow-x: hidden;
 
 
 }
@@ -47,7 +48,12 @@ body {
     padding: 3rem;
     grid-template-rows: auto;
     border-radius: 40px;
+    background-color: rgb(27,34,44);
 }
+.article-one .image-one,
+  .article-two .image-two, .article-three .image-three {
+    order: -1;
+  }
 .image {
     width: 500px;
     height: 250px;
@@ -64,13 +70,26 @@ body {
 .article-two {
     display: grid;
     padding: 3rem;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .reason-two {
     padding: 1rem;
 }
 .image-two {
+    padding: 1rem;
+}
+
+.article-three {
+    display: grid;
+    padding: 3rem;
+    grid-template-rows: auto;
+}
+
+.reason-three {
+    padding: 1rem;
+}
+.image-three {
     padding: 1rem;
 }
 }
@@ -113,6 +132,19 @@ body {
         padding: 1rem;
     }
     .image-two {
+        padding: 1rem;
+    }
+    .article-three {
+        display: grid;
+        padding: 3rem;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+    
+    .reason-three {
+        padding: 1rem;
+    }
+    .image-three {
         padding: 1rem;
     }
     }
