@@ -7,6 +7,7 @@
 
 
 }
+
 @font-face {
     font-family: "Unbounded";
     src: url(unbounded.ttf);
@@ -61,10 +62,10 @@ body {
 }
 
 .reason-one {
-    padding: 1rem;
+    padding: 0rem;
 }
 .image-one {
-    padding: 1rem;
+    padding: 0rem;
 }
 
 .article-two {
@@ -74,10 +75,10 @@ body {
 }
 
 .reason-two {
-    padding: 1rem;
+    padding: 0rem;
 }
 .image-two {
-    padding: 1rem;
+    padding: 0rem;
 }
 
 .article-three {
@@ -87,10 +88,11 @@ body {
 }
 
 .reason-three {
-    padding: 1rem;
+    padding: 0rem;
 }
 .image-three {
-    padding: 1rem;
+    padding: 0rem;
+    
 }
 }
 
